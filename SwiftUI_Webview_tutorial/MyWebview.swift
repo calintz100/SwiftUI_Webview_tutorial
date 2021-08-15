@@ -12,7 +12,6 @@ import WebKit
 // UIViewControllerRepresentable
 struct MyWebview : UIViewRepresentable {
     
-    
     var urlToLoad: String
     
     // ui view 만들기

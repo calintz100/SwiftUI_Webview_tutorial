@@ -15,6 +15,7 @@
 		54C4259E26C97FE600188DCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C4259C26C97FE600188DCE /* LaunchScreen.storyboard */; };
 		54C425A926C97FE600188DCE /* SwiftUI_Webview_tutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C425A826C97FE600188DCE /* SwiftUI_Webview_tutorialTests.swift */; };
 		54C425B426C97FE600188DCE /* SwiftUI_Webview_tutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C425B326C97FE600188DCE /* SwiftUI_Webview_tutorialUITests.swift */; };
+		54C425C226C9802C00188DCE /* MyWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C425C126C9802C00188DCE /* MyWebview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		54C425AF26C97FE600188DCE /* SwiftUI_Webview_tutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_Webview_tutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C425B326C97FE600188DCE /* SwiftUI_Webview_tutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Webview_tutorialUITests.swift; sourceTree = "<group>"; };
 		54C425B526C97FE600188DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C425C126C9802C00188DCE /* MyWebview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				54C4259C26C97FE600188DCE /* LaunchScreen.storyboard */,
 				54C4259F26C97FE600188DCE /* Info.plist */,
 				54C4259926C97FE600188DCE /* Preview Content */,
+				54C425C126C9802C00188DCE /* MyWebview.swift */,
 			);
 			path = SwiftUI_Webview_tutorial;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C4259226C97FE400188DCE /* AppDelegate.swift in Sources */,
+				54C425C226C9802C00188DCE /* MyWebview.swift in Sources */,
 				54C4259426C97FE400188DCE /* SceneDelegate.swift in Sources */,
 				54C4259626C97FE400188DCE /* ContentView.swift in Sources */,
 			);

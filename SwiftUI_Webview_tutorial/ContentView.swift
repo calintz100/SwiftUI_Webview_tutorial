@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        MyWebview(urlToLoad: "https://hts.or.kr")
+        
     }
 }
 
